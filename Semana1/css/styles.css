@@ -1,0 +1,12 @@
+div{
+    background-color: blueviolet;
+}
+#div2{
+    background-color: aqua;
+}
+.my_Div{
+    background-color: rgb(34, 182, 150);
+    color: antiquewhite;
+    border: 5px solid black;
+    border-radius: 5px;
+}
