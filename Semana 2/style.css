@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+    border: solid;
+    padding: 10px;
+}
+
+main{
+    display: flex;
+    margin-top: 1%;
+    border: 2px solid black;
+    height: 100vh;
+    padding: 1%;
+    flex-wrap: wrap;
+}
+
+.my_card{
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 1%;
+    padding: 1%;
+
+}
