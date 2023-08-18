@@ -1,0 +1,32 @@
+body{
+    height: 100vh;
+}
+.container{
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    grid-template-rows: 10% 1fr 1fr 10%;
+    grid-template-areas:
+    "Header Header"
+    "Aside Main"
+    "Article Main"
+    "Footer Footer";
+    height: 100vh;
+}
+.container *{
+    border: 1px solid black;
+}
+.Header{
+    grid-area: Header;
+}
+.Main{
+    grid-area: Main;
+}
+.Footer{
+    grid-area: Footer;
+}
+.aside{
+    grid-area: Aside;
+}
+.Article{
+    grid-area: Article;
+}
