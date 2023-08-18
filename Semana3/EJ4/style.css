@@ -1,0 +1,46 @@
+body{
+    height: 100vh;
+    background-color:  rgb(235, 229, 229);
+}
+.container{
+    background-color:  rgb(240, 247, 211);
+    padding: 2%;
+    margin: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 22% 1fr;
+    grid-template-areas:
+    "Header Header Header"
+    "Main Main Main";
+    height: 95vh;
+}
+
+.Header{
+grid-area: Header;
+}
+.BTN{
+    display: grid;
+    grid-template-columns: repeat(5,15%);
+    background-color: rgb(240, 247, 211);
+     gap: 5px;
+}
+.T{
+   
+    border: 5px solid white;
+    background-color: white;
+    border-radius: 10%;
+}
+.Main{
+    grid-area: Main;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: 1fr 10%;
+}
+.Gen{
+    border: solid antiquewhite;
+    background-color: rgb(240, 247, 211);
+    height: 80%;
+    width: 90%;
+    padding: 2%;
+    margin: 2%;
+}
