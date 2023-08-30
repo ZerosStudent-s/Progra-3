@@ -1,0 +1,93 @@
+body{
+    height: 100vh;
+    padding: 3%;
+    background-color: #d8dae2;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows: 20% 1fr;
+
+    grid-template-areas: 
+    "header"
+    "main";
+
+    row-gap: 32px;
+
+    padding: 5%;
+
+    height: 75vh;
+    background-color: #eff0f1;
+    border-radius:10px;
+}
+
+
+.header{
+    grid-area: header;
+}
+
+.main{
+    grid-area: main;
+    margin-top: 24px;
+}
+
+.section{
+    display: flex;
+    gap:16px;
+    justify-content: space-between;
+}
+
+.tags{
+    display: flex;
+    gap:8px;
+}
+
+.my_tag{
+    border-radius: 5px;
+    padding: 1%;
+    background-color: white;
+    font-weight: 600;
+}
+
+.main-pic{
+
+    height: 150px;
+    border-radius: 5px;
+
+    background-image: url(https://cdn.wallpapersafari.com/93/99/DUlr6V.jpg);
+    background-size: cover;
+}
+
+.my_card{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 33%;
+    background-color: white;
+    padding:3%;
+    border-radius: 5px;
+}
+
+.pics {
+    display: flex;
+    gap:16px;
+    height: 90px;
+    width: 100%;
+}
+
+.small-pic{
+    
+    border-radius: 5px;
+    width: 33%;
+
+    background-image: url(https://wallpaperaccess.com/full/138728.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+}
