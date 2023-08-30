@@ -45,8 +45,7 @@ grid-column: 2/3;
 .IM{
     grid-column: 1/2;
     grid-row: 1/3;
-    object-fit: cover;
-}
+    }
 img{
     border-radius: 100%;
     height: 100%;
