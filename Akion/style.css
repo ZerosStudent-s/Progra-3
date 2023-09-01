@@ -1,0 +1,59 @@
+.contenedorG{
+    background-color: aqua;
+    border: 5px solid aqua;
+    border-radius: 10px;
+    margin-left:10% ;
+    margin-right: 10%;
+    display: grid;
+    width: 100vh;
+    height: 100vh;
+    padding: 15%;
+    
+    
+}
+
+.contenedorP{
+
+    background-color: whitesmoke;
+    border: 5px solid whitesmoke;
+    border-radius: 10px;
+    display: grid;
+
+    grid-template-areas: 
+    "titulo"
+    "main"
+    "main2"
+    "footer";
+}
+
+#titulo{
+    grid-area: titulo;
+    text-align: center;
+    padding-top: 10%;
+    
+    
+}
+
+.usuario{
+    grid-area: main;
+    display: flex;
+    
+    justify-content: space-evenly;
+}
+
+
+.password{
+    grid-area: main2;
+    display: grid;
+    grid-template-columns: 25% 1fr 25%;
+    grid-template-rows: 25% 1fr;
+    
+}
+
+.inicio{
+    grid-area: footer;
+    display: grid;
+    grid-template-columns: 75% 1fr;
+    grid-template-rows: 25% 1fr;
+
+}
