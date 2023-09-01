@@ -6,16 +6,13 @@ window.onload = (event) => {
     });
     
     const cardText = document.getElementById("input");
-    const my_cards = document.getElementById("my_cards");
-    
-
-
     let createCard = document.getElementById("BTN")
+
     createCard.addEventListener("click", function() {
         const text = cardText.value;
         if (text.trim() !== "") {
             // Crear una nueva tarjeta
-            const my_card = document.createElement("div");
+            const my_card = document.createElement("my_cards");
             my_card.className = "my_card";
             my_card.textContent = text;
             
