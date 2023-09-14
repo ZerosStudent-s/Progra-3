@@ -3,22 +3,22 @@
     "id":1,
     "img":"https://www.lavanguardia.com/andro4all/hero/2023/04/6d8841b6-9d24-457a-95c5-0d3de1d7bf5f.png?width=768&aspect_ratio=16:9&format=nowebp"    ,
     "companyName":"DIAN Enterpice",
-    "description":"Descripción",
+    "description":"Only Another company using AI by learning",
     "services":[
         {
           "id":"1",
-          "ico":"icons/3d-rotate.png",
-          "description":"Service 1"
+          "ico":"https://cdn-icons-png.flaticon.com/512/732/732212.png",
+          "description":"HTML"
         },
         {
           "id": "2",
-          "ico":"icons/3d-rotate.png",
-          "description": "Service 2"
+          "ico":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png",
+          "description": "CSS"
         },
         {
           "id": "3",
-          "ico":"icons/3d-rotate.png",
-          "description": "Service 3"
+          "ico":"https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png",
+          "description": "NODE.JS"
         }
       ] 
     
