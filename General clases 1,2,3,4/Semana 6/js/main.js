@@ -24,7 +24,6 @@ window.addEventListener("load", function (event) {
       ico.className = "ServICon";
       itemContenedor.appendChild(ico);
       itemContenedor.appendChild(descripcion);
-
       contenedor.appendChild(itemContenedor);
     
 
